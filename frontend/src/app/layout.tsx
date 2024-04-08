@@ -8,8 +8,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="">
-        <div className="flex sticky">
+      <body className="w-screen h-screen">
+        <div className="z-50 sticky top-0">
           <Navbar/>
         </div>
         {children}
