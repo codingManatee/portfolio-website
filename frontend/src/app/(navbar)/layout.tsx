@@ -1,5 +1,4 @@
 import Navbar from "@/components/shared/Navbar";
-import "./globals.css";
 
 export default function RootLayout({
   children,
@@ -7,8 +6,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="w-screen h-screen">{children}</body>
-    </html>
+    <div className="">
+      <Navbar/>
+      <div className="">{children}</div>
+    </div>
   );
 }
