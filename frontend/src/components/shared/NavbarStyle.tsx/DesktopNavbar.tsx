@@ -19,7 +19,7 @@ const DesktopNavBar = () => {
         </button>
       </div>
       <div className="flex-1 space-x-2">
-        <a className="btn btn-ghost text-xl">ExoticStock</a>
+        <a href="/" className="btn btn-ghost text-xl">ExoticStock</a>
         <label className="input input-bordered flex items-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ const DesktopNavBar = () => {
         </label>
       </div>
       <div className="flex-none space-x-2">
-        <a className="btn">Login</a>
+        <a href="/auth/login" className="btn">Login</a>
         <a className="btn btn-neutral">Sign In</a>
       </div>
     </div>
