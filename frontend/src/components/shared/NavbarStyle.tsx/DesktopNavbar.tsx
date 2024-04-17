@@ -37,7 +37,7 @@ const DesktopNavBar = () => {
         </label>
       </div>
       <div className="flex-none space-x-2">
-        <a href="/auth/login" className="btn">Login</a>
+        <a href="/account/login" className="btn">Login</a>
         <a className="btn btn-neutral">Sign In</a>
       </div>
     </div>

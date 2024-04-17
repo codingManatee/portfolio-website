@@ -1,5 +1,5 @@
 import DesktopNavbar from "./NavbarStyle.tsx/DesktopNavbar";
-import MobileNavbar from "./NavbarStyle.tsx/MobileNavBar";
+import MobileNavbar from "./NavbarStyle.tsx/MobileNavbar";
 
 const Navbar = () => {
   return (
